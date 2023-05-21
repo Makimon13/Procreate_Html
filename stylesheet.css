@@ -32,3 +32,30 @@ a {
 }
 
 /* top-wrapperの中の<p>のCSSを指定してください */
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
