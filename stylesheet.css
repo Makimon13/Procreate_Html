@@ -18,9 +18,9 @@ a {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
   color: white;
+  text-align: center;
 }
 
-/* top-wrapperの中の<h1>のCSSを指定してください */
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
@@ -31,16 +31,12 @@ a {
   opacity: 0.7;
 }
 
-/* top-wrapperの中の<p>のCSSを指定してください */
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-}
-
 .btn-wrapper {
   margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
 }
 
 .signup {
@@ -56,6 +52,50 @@ a {
   background-color: #55acee;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
 }
